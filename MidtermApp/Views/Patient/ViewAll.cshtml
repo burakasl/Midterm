@@ -1,0 +1,33 @@
+﻿@using MidtermApp.Entities
+@model List<Patient>
+
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <link href="~/css/control-panel.css" rel="stylesheet" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="sidebar">
+        <button>Tedaviler</button>
+        <button>İlaçlar</button>
+        <button>Testler</button>
+    </div>
+    <div id="main-conatiner">
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <div id="item-container">
+                    <h3>@item.Email</h3>
+                </div>
+            }
+        }
+    </div>
+</body>
+</html>

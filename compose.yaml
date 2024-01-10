@@ -1,0 +1,30 @@
+services:
+  sql-server:
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      SA_PASSWORD: "Y389bhjas."
+      ACCEPT_EULA: "Y"
+    ports:
+      - 1433:1433
+    networks:
+      - default-network
+
+  api:
+    build:
+      context: ./MidtermAPI/
+      target: final
+    ports:
+      - 3001:3001
+    networks:
+      - default-network
+
+  app:
+    build:
+      context: ./MidtermApp/
+      target: final
+    ports:
+      - 3002:3002
+    networks:
+      - default-network
+networks:
+  default-network:

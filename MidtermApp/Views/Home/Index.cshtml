@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+<html>
+
+<head>
+    <link href="~/css/home.css" rel="stylesheet" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Dijital sağlık takip sistemine hoş geldiniz.</h1>
+        <p>Dijital sağlık takip sistemi ile sağlığınıza dair tüm bilgilere kolayca erişebilirsiniz.
+        Tedavi süreçleriniz, doktorlarınız ve kullandığınız ilaçlara dair bilgilere erişmek için hesabınıza giriş yapabilir
+        veya hesabınız yoksa kolayca oluşturabilirsiniz.</p>
+        <form id="mail-container" asp-action="Index" asp-controller="Home" method="post">
+            <input placeholder="Email adresiniz..." name="email"/>
+            <button type="submit">Başlayın</button>
+        </form>
+    </div>
+    <img src="~/img/home.png" />
+</body>
+</html>
+

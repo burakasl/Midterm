@@ -1,0 +1,82 @@
+﻿body {
+    background: rgb(0,206,200);
+    background: linear-gradient(45deg, rgba(0,206,200,1) 50%, rgba(255,255,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-color: white;
+    width: 55%;
+    height: 65%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1);
+    display: flex;
+}
+
+    #card img{
+        max-height: 100%;
+        width: auto;
+        display: block;
+        margin: 0;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+#login-form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: large;
+}
+
+    #login-form input {
+        margin: 10px;
+        width: 75%;
+        height: 7%;
+        outline: none;
+        border: none;
+        border-bottom: 3px solid #6F6F6F;
+        border-radius: 3px;
+        font-size: medium;
+        font-family: 'Fira Sans', sans-serif;
+        color: #474747;
+    }
+
+        #login-form input::placeholder {
+            color: #6F6F6F;
+            font-size: medium;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+    #login-form button {
+        margin: 10px;
+        height: 5%;
+        width: 25%;
+        border: 1px solid #6F6F6F;
+        border-radius: 10px;
+        color: #474747;
+    }
+
+        #login-form button:hover {
+            background-color: #C7C7C7;
+        }
+
+h1 {
+    margin-bottom: 20%;
+    font-family: 'Fira Sans', sans-serif;
+    color: #474747;
+}
+
+h2 {
+    position: relative;
+    left: 5%;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #474747;
+    text-align: justify;
+    width: 80%;
+}

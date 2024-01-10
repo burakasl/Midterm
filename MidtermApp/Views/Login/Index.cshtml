@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<html>
+
+<head>
+    <link href="~/css/login.css" rel="stylesheet" asp-append-version="true"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="card">
+        <img src="~/img/login-register.png"/>
+        <form id="login-form" asp-action="Index" asp-controller="Login" method="post">
+            <h1>Giriş Yap</h1>
+            <input type="password" placeholder="Şifreniz..." name="Password"/>
+
+            @if (ViewBag.Error != null)
+            {
+                <h2>@ViewBag.Error</h2>
+            }
+
+            <button type="submit">Giriş Yap</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

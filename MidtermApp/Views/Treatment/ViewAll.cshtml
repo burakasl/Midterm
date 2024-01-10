@@ -1,0 +1,46 @@
+﻿@using MidtermApp.Entities
+@model List<Treatment>
+
+@{
+    Layout = null;
+}
+
+<html>
+<head>
+    <link href="~/css/control-panel.css" rel="stylesheet" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main-container">
+        <div id="tab-container">
+            <div id="tabs-left">
+                <button>Tedaviler</button>
+                <button>İlaçlar</button>
+                <button>Testler</button>
+            </div>
+            <div id="tabs-right">
+                <button>Hesap</button>
+                <button>Çıkış yap</button>
+            </div>
+        </div>
+        <div id="item-container">
+            @if (Model != null)
+            {
+                @foreach (var item in Model)
+                {
+                    <div id="item">
+                        <h3>@item.Diagnosis</h3>
+                    </div>
+                }
+            }
+
+            else
+            {
+                <h3>Kayıtlı veri yok.</h3>
+            }
+        </div>
+    </div>
+</body>
+</html>

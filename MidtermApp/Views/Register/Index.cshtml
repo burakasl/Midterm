@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null;
+}
+
+<html>
+
+<head>
+    <link href="~/css/register.css" rel="stylesheet" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="card">
+        <img src="~/img/login-register.png" />
+        <form id="register-form" asp-action="Index" asp-controller="Register" method="post">
+            <h1>Kayıt Ol</h1>
+            <input type="text" placeholder="Adınız soyadınız..." name="FullName" />
+            <input type="text" placeholder="Kullanıcı adınız..." name="Username" />
+            <input type="password" placeholder="Şifreniz..." name="Password" />
+            <div id="checkbox-container">
+                <h2>Doktor kaydı</h2>
+                <input id="checkbox" type="checkbox" name="IsDoctor" />
+            </div>
+            <input id="personnel" type="text" placeholder="Personel numaranız..." name="PersonnelNumber"/>
+
+            @if (ViewBag.Error != null)
+            {
+                <h2>@ViewBag.Error</h2>
+            }
+
+            <button type="submit">Kayıt ol</button>
+        </form>
+    </div>
+    <script>
+        const checkbox = document.getElementById("checkbox");
+        const personnel = document.getElementById("personnel");
+
+        checkbox.addEventListener("change", function () {
+
+            personnel.style.display = this.checked ? "block" : "none";
+        });
+
+    </script>
+</body>
+
+</html>
