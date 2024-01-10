@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/MidtermApp.csproj": {}
+    "/Users/burakaslan/Desktop/Midterm/MidtermApp/MidtermApp.csproj": {}
   },
   "projects": {
-    "/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/MidtermApp.csproj": {
+    "/Users/burakaslan/Desktop/Midterm/MidtermApp/MidtermApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/MidtermApp.csproj",
+        "projectUniqueName": "/Users/burakaslan/Desktop/Midterm/MidtermApp/MidtermApp.csproj",
         "projectName": "MidtermApp",
-        "projectPath": "/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/MidtermApp.csproj",
+        "projectPath": "/Users/burakaslan/Desktop/Midterm/MidtermApp/MidtermApp.csproj",
         "packagesPath": "/Users/burakaslan/.nuget/packages/",
-        "outputPath": "/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/obj/",
+        "outputPath": "/Users/burakaslan/Desktop/Midterm/MidtermApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/burakaslan/.nuget/NuGet/NuGet.Config"

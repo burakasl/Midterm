@@ -53,7 +53,7 @@ namespace MidtermApp.Controllers
 
                     await HttpContext.SignInAsync(principal);
 
-                    return RedirectToAction("ViewAll", "Patient");
+                    return RedirectToAction("ViewAll", "Doctor");
                 }
             }
 

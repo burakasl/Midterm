@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "06qN29G35CBhwsRk7wZvZVhq2mTtogQlqGaYK6aYkLvx5AUNze+3fFlPTw5AjWgCGzAOtznLcu/Ale+KBrRrCQ==",
+  "dgSpecHash": "D3II4vGk14kTKHsTJVaJKZeAnqbiJwoJdTv96gEsOcDTB/x/yHNyx+YoE3h34ryteZhTuWJ0Yd4E9uicZMHZOQ==",
   "success": true,
-  "projectFilePath": "/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/MidtermApp.csproj",
+  "projectFilePath": "/Users/burakaslan/Desktop/Midterm/MidtermApp/MidtermApp.csproj",
   "expectedPackageFiles": [
     "/Users/burakaslan/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/burakaslan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

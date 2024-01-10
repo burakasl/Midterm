@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MidtermApp
 build_property.RootNamespace = MidtermApp
-build_property.ProjectDir = /Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/
+build_property.ProjectDir = /Users/burakaslan/Desktop/Midterm/MidtermApp/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/burakaslan/Documents/GitHub/Midterm/MidtermApp
+build_property.MSBuildProjectDirectory = /Users/burakaslan/Desktop/Midterm/MidtermApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/Doctor/ViewAll.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/Doctor/ViewAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRG9jdG9yL1ZpZXdBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/Home/Index.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/Home/Privacy.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/Login/Index.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/Patient/ViewAll.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/Patient/ViewAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF0aWVudC9WaWV3QWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/Register/Index.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVnaXN0ZXIvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/Shared/Error.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/Treatment/ViewAll.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/Treatment/ViewAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJlYXRtZW50L1ZpZXdBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/_ViewImports.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/burakaslan/Documents/GitHub/Midterm/MidtermApp/Views/_ViewStart.cshtml]
+[/Users/burakaslan/Desktop/Midterm/MidtermApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
